@@ -3,6 +3,8 @@
 ## 1. Introduction
 Text summarisation has its applications in almost all the areas of the World Wide Web. We have search engines that provide queries and summaries as part of users' search experiences, news agencies providing summaries for articles and even e-commerce platforms using summaries to improve buyers' purchasing and window shopping experiences. With the number of opinions and events in the World Wide Web growing daily, there is ample opportunities for us to use text summarisations to extract key information out of text documents.
 
+Personally, I have always been keen to understand and apply advanced techniques at extracting summaries out of text. A recent opportunity came up for me to demonstrate my domain knowledge in text summarisation. I decided to use the opportunity to compile a repository of my work.
+
 ## 2. Basic Literature
 In the field of text summarisation, the techniques used can be broadly classified into two categories - extraction and abstraction. Extraction techniques take out the important sentences or phrases from the original text and joins them to form a summary. This involves a ranking algorithm to assign scores to sentences or phrases based on a certain relevance to the overall meaning of the document. Abstraction techniques may or may not pick out the same sentences from the document. Instead, it generates new texts that capture the meaning of the original document through an analyses of the original document. 
 
