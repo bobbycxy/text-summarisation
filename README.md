@@ -85,7 +85,7 @@ I could increase the size of my compute instance and compare the result. However
 ## 5.0. Conclusion
 In addition to writing up a python script that takes in a text input and return the event extractions, this README document is meant to highlight the differences in each approach when it comes to extracting main events from given news articles, and demonstrate that there are feasible ways to derive key information from text documents. It is, however, not meant to present a comprehensive evaluation of the aforementioned approaches. 
 
-However, preliminary assessment of the initial sample texts highlight that the abstractive method has its hits and misses, suggesting that more fine-tuning or longer training is required. On the other, the extractive methods seem to be consistently decent at extracting the key events from each text.![Uploading image.png…]()
+However, preliminary assessment of the initial sample texts highlight that the abstractive method has its hits and misses, suggesting that more fine-tuning or longer training is required. On the other, the extractive methods seem to be consistently decent at extracting the key events from each text.
 
 
 
