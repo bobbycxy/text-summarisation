@@ -76,7 +76,9 @@ The first parameter is the saved model’s weights folder path, and the second p
 | **Article3.txt** | _'A doctor who drove a car after drinking beer has been fined $4,000 after he pleaded guilty to attempting to pervert the course of justice.'_|
 
 ### 4.4. Method 4 - Abstraction with Transformer Model from Scratch
-The fourth technique I’ll implement is an abstraction method that also uses transformer models. However, it is a newly trained model that follows the transformer architecture used in the “Attention Is All You Need” paper which was originally where the ‘transformer’ was proposed. Similar to Method 3, I will use the XSum dataset to train the transformer model on.
+The fourth technique I’ll implement is an abstraction method that also uses transformer models. However, it is a newly trained model that follows the transformer architecture used in the “Attention Is All You Need” paper which was originally where the ‘transformer’ was proposed. To learn more about this transformer architecture, I've written a medium article [here](https://medium.com/@bobbycxy/the-why-what-and-where-of-transformers-810ba1763470) that talks about its core components. 
+
+Similar to Method 3, I will use the XSum dataset to train the transformer model.
 
 How I wrote it? I performed similar preprocessing steps on the text data. However, since this model was built from scratch, I had to first write helper functions – e.g. scaled dot product, masking and positional encoding – that were subsequently used to build each major block of the transformer architecture – e.g. multi head attention, encoder block and the decoder block, followed by training the model over 15 epochs that took 5.5 hours. 
 
